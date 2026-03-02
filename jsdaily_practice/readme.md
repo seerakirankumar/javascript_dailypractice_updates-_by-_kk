@@ -123,3 +123,84 @@ Understanding of higher-order functions
 Writing reusable functions
 
 Improving logical thinking
+
+>>DAY [7]
+
+DOM in JavaScript
+🔹 What is DOM?
+
+DOM (Document Object Model) is a programming interface that allows JavaScript to interact with and manipulate HTML documents.
+
+When a web page loads in the browser, the browser converts the HTML document into a structured tree of objects. This structure is called the DOM Tree.
+
+JavaScript uses the DOM to access and modify webpage content dynamically.
+
+🌳 How DOM Works
+
+The browser reads HTML.
+
+It converts HTML elements into objects (nodes).
+
+These objects are organized in a tree-like structure.
+
+JavaScript can access and modify these objects.
+
+Example DOM Structure:
+
+Document
+ └── html
+      └── body
+           ├── h1
+           └── p
+
+Each HTML element becomes a node that JavaScript can control.
+
+🔹 Why DOM is Important?
+
+The DOM allows developers to:
+
+Change text content
+
+Modify styles (CSS)
+
+Add new elements
+
+Remove elements
+
+Handle user events (click, input, etc.)
+
+Create dynamic and interactive web applications
+
+Without the DOM, JavaScript cannot update or control HTML content.
+
+🔹 Common DOM Methods
+
+Some frequently used DOM methods include:
+
+document.getElementById()
+
+document.querySelector()
+
+document.getElementsByClassName()
+
+addEventListener()
+
+These methods help in selecting and manipulating elements.
+
+🔹 DOM Manipulation
+
+DOM manipulation refers to changing the structure, style, or content of a webpage using JavaScript.
+
+Examples:
+
+Updating text inside an element
+
+Changing background color
+
+Creating a new element and appending it to the page
+
+Removing an existing element
+
+🔹 Simple Definition
+
+The DOM is the bridge between HTML and JavaScript that allows dynamic changes to a webpage.
