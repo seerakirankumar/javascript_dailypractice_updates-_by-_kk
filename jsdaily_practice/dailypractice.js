@@ -127,3 +127,13 @@ let redskk = skk.reduce((ini,curr)=>{
    return ini * curr;
 })
 console.log(redskk);
+
+// DAY 7 practice
+
+
+//DOM(document object model)
+
+// console.log(is used for printing)
+//console.dir(document)>> it is used for showing the properties of the document object
+
+//DOM manipulation
