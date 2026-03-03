@@ -137,3 +137,22 @@ console.log(redskk);
 //console.dir(document)>> it is used for showing the properties of the document object
 
 //DOM manipulation
+
+//>> selecting with ID (#)
+document.getElementById("insert created id")
+
+
+//>>selecting with class(.)
+
+document.getElementById("insert here your created class")
+
+
+//>>selecting with tag
+
+document.getElementsByTagName("p")// here "p" means paragraph tag
+
+//QUERY selector :
+
+document.querySelector("myid/myclass/tag")//returns first element
+
+document.querySelectorAll("myid/myclass/tag")// returns a nodelist
